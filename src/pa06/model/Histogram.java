@@ -1,4 +1,4 @@
-package pa04.model;
+package pa06.model;
 
 import java.util.HashMap;
 import java.util.Map;

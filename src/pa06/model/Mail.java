@@ -1,4 +1,4 @@
-package pa04.model;
+package pa06.model;
 
 public class Mail {
     private String mail;

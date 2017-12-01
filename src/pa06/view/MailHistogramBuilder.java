@@ -1,8 +1,8 @@
-package pa04.view;
+package pa06.view;
 
 import java.util.List;
-import pa04.model.Histogram;
-import pa04.model.Mail;
+import pa06.model.Histogram;
+import pa06.model.Mail;
 
 public class MailHistogramBuilder {
     public static Histogram<String> build (List<Mail> list){

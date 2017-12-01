@@ -1,4 +1,4 @@
-package pa04.view;
+package pa06.view;
 
 import java.awt.Dimension;
 import javax.swing.JPanel;
@@ -8,7 +8,7 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.ui.ApplicationFrame;
-import pa04.model.Histogram;
+import pa06.model.Histogram;
 
 public class HistogramDisplay <T> extends ApplicationFrame {
     private final Histogram<T> histogram;

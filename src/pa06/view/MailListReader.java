@@ -1,4 +1,4 @@
-package pa04.view;
+package pa06.view;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import pa04.model.Mail;
+import pa06.model.Mail;
 
 public class MailListReader {
     public static List<Mail> read(String fileName) throws FileNotFoundException, IOException {

@@ -1,14 +1,14 @@
-package pa04.main;
+package pa06.main;
 
 import java.io.IOException;
 import java.util.List;
-import pa04.model.Histogram;
-import pa04.model.Mail;
-import pa04.view.HistogramDisplay;
-import pa04.view.MailHistogramBuilder;
-import pa04.view.MailListReader;
+import pa06.model.Histogram;
+import pa06.model.Mail;
+import pa06.view.HistogramDisplay;
+import pa06.view.MailHistogramBuilder;
+import pa06.view.MailListReader;
 
-public class Kata4 {
+public class Kata6 {
     
     public String filename;
     public List<Mail> mailList;
@@ -16,8 +16,8 @@ public class Kata4 {
     HistogramDisplay histoDisplay;
      
      public static void main(String[] args) throws IOException, Exception {
-         Kata4 kata4 = new Kata4();
-         kata4.execute();
+         Kata6 kata6 = new Kata6();
+         kata6.execute();
     }
      
     public void execute() throws IOException {
