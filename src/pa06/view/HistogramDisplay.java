@@ -12,10 +12,12 @@ import pa06.model.Histogram;
 
 public class HistogramDisplay <T> extends ApplicationFrame {
     private final Histogram<T> histogram;
+    private final String nameEjeX;
    
-    public HistogramDisplay(Histogram<T> histogram) {
+    public HistogramDisplay(Histogram<T> histogram, String name) {
         super("Histograma");
         this.histogram = histogram;
+        this.nameEjeX=name;
         setContentPane(createPanel());
         pack();
     }
@@ -33,7 +35,7 @@ public class HistogramDisplay <T> extends ApplicationFrame {
     private JFreeChart createChart(DefaultCategoryDataset dataSet){
         JFreeChart chart = ChartFactory.createBarChart(
                 "Histograma de emails",
-                "dominios email",
+                nameEjeX,
                 "n* de emails recibidos",
                 dataSet,
                 PlotOrientation.VERTICAL,
